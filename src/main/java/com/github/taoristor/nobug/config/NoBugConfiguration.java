@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties
-@ComponentScan(basePackages = {"org.springframework.nobug"})
+@ComponentScan(basePackages = {"com.github.taoristor.nobug"})
 public class NoBugConfiguration {
     public NoBugConfiguration(){
         new Thread(new Runnable() {
